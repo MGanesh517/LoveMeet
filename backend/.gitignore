@@ -7,6 +7,11 @@ package-lock.json
 .env.local
 .env.production
 
+# Firebase service account keys (NEVER COMMIT THESE!)
+*.json
+firebase-service-account.json
+**/firebase-adminsdk*.json
+
 # Build output
 dist/
 build/
