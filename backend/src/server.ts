@@ -94,7 +94,7 @@ async function startServer() {
       console.log(`📡 Environment: ${NODE_ENV}`);
       console.log(`🔗 Health check: http://localhost:${PORT}/health`);
       console.log(`🌐 API Base URL: http://localhost:${PORT}/api`);
-      console.log(`📊 MongoDB Database: ${process.env.MONGODB_DB || 'myGameDB'}`);
+      console.log(`📊 MongoDB Database: ${process.env.MONGODB_DB || 'LoveMeet'}`);
     });
 
     // Graceful shutdown
